@@ -39,7 +39,7 @@ class Bola {
    this.y += this.velY;
 }
 
-//veruifica a colisão entre as bolas
+//verifica a colisão entre as bolas
    collisionDetect(Bolas) {
       for (var bola of Bolas) {
          if (!(this === bola)) {
